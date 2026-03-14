@@ -1,51 +1,17 @@
-
+// css styles
 import './App.css'
+// components
 import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
-import { Section, SectionWithTitle, SectionCard } from "./components/Section"
+import { Section, SectionWithTitle } from "./components/Section"
+import { Card, CardProject } from "./components/Card"
+import Badge from "./components/Badge"
 import Footer from "./components/Footer"
-
+// data
+import data from "./data/data.json"
 
 function App() {
   
-  const exp = [
-    { id: 1, title: "5 Años", subtitle: "Full Stack PHP (PDO/MVC) & MySQL"},
-    { id: 2, title: "+1 Año", subtitle: "Full Stack Python (Django/FastAPI) & Laravel"},
-    { id: 3, title: "IA", subtitle: "Pandas & ML Models"},
-    { id: 4, title: "Modern", subtitle: "React, Tailwind css, TS & Node.js"}
-  ];
-
-  const coreBackend = [
-    { id: 1, text: "PHP (PDO/MVC)"},
-    { id: 2, text: "MySQL"},
-    { id: 3, text: "API / API REST"},
-    { id: 4, text: "Role-Based Access Control (RBAC)"},
-    { id: 5, text: "Multi-factor Authentication (MFA)"},
-    { id: 6, text: "Security Knowledge-Based Authentication (KBA)"},
-    { id: 7, text: "Scrapping"},
-    { id: 8, text: "Javascript (AJAX / jQuery)"},
-    { id: 9, text: "Bootstrap (Bootstrap Icons)"},
-    { id:10, text: "PostgreSQL"}
-  ];
-  
-  const auge = [
-    { id: 1, text: "FastAPI"},
-    { id: 2, text: "Django"},
-    { id: 3, text: "Pandas"},
-    { id: 4, text: "Machine Learning"},
-
-  ];
-
-  const modernWeb = [
-    { id: 1, text: "React (Vite)"},
-    { id: 2, text: "Node.js / Express"},
-    { id: 3, text: "TypeScript"},
-    { id: 4, text: "Tailwind CSS"},
-    { id: 5, text: "Supabase"},
-    { id: 6, text: "Vercel"},
-    
-  ];
-
   return (
     <>
       <NavBar />
@@ -54,7 +20,7 @@ function App() {
       <Section id="experience" classNames="bg-slate-800/50 py-12 border-y border-slate-800">
         <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {
-            exp.map((item) => (
+            data.exp.map((item) => (
               <div key={item.id}>
                   <p class="text-3xl font-bold text-white">{item.title}</p>
                   <p class="text-sm text-slate-500 italic">{item.subtitle}</p>
@@ -66,43 +32,73 @@ function App() {
 
 
       <SectionWithTitle
-        id="stack" 
-        classNames="py-20 px-5"
-        title="Dominio Tecnológico"
-        >
-          <SectionCard 
-            title="Core Backend (5 años)"
-            colorTitle="text-blue-400"
-            className="border-blue-500/20 text-left" 
-            array={coreBackend}/>
+        idSection="stack" 
+        classSection="py-20 px-5 "
+        title="Dominio Tecnológico">
 
-          <SectionCard 
-            title="+1 year with Python & AI (En auge)"
-            colorTitle="text-yellow-400"
-            className="border-yellow-500/20 text-left scale-105 shadow-xl shadow-yellow-500/5" 
-            array={auge}/>
+          <Card 
+            title="Full Stack Web (5 años)"
+            titleClass="text-xl font-semibold mb-6 text-blue-400 text-center"
+            cardClass="bg-slate-800 p-6 rounded-xl border border-blue-500/20" >
 
-          <SectionCard 
+              <Badge 
+                badgeClass="bg-slate-900 px-3 py-1 rounded-md text-xs border border-slate-700" 
+                array={data.coreBackend} />
+
+          </Card>
+
+          <Card 
+            title="Learning Modern Stack Web, Python & AI"
+            titleClass="text-xl font-semibold mb-6 text-yellow-400 text-center"
+            cardClass="bg-slate-800 p-6 rounded-xl border border-yellow-500/20 text-left scale-105 shadow-xl shadow-yellow-500/5">
+            
+              <Badge 
+                badgeClass="bg-slate-900 px-3 py-1 rounded-md text-xs border border-slate-700" 
+                array={data.auge} />
+
+          </Card>
+
+          <Card 
             title="Modern Stack Web"
-            colorTitle="text-emerald-400"
-            className="border-emerald-500/20 text-left" 
-            array={modernWeb}/>
+            titleClass="text-xl font-semibold mb-6 text-emerald-400 text-center"
+            cardClass="bg-slate-800 p-6 rounded-xl border border-emerald-500/20 text-left">
+
+              <Badge 
+                badgeClass="bg-slate-900 px-3 py-1 rounded-md text-xs border border-slate-700" 
+                array={data.modernCore} />
+
+          </Card>
+
 
       </SectionWithTitle>    
 
-
-
       <SectionWithTitle
-        id="proyectos" 
-        classNames="py-20 px-4 bg-slate-800/30"
-        classNamesTitle="text-left "
+        idSection="proyectos" 
+        classSection="py-20 px-4 bg-slate-800/30"
+        classTitle="text-left "
         title="Proyectos Destacados"
         >
-          <SectionCard 
-            title="Core Backend (5 años)"
-            colorTitle="text-blue-400"
-            className="border-blue-500/20 text-left" 
-            array={coreBackend}/>
+          {
+
+            data.proyects.map((item) => (
+
+              <CardProject 
+                key={item.id}
+                title = {item.title}
+                titleClass = {item.titleClass}
+                subtitle = {item.subtitle}
+                subtitleClass = {item.subtitleClass}
+                cardClass = {item.cardClass}
+                imgSrc = {item.imgSrc}
+                imgClass = {item.imgClass}
+                imgAlt = {item.imgAlt}
+                array = {item.data}
+                >
+
+              </CardProject>
+            ))            
+
+          }
 
       </SectionWithTitle>    
 

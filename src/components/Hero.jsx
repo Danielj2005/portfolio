@@ -1,4 +1,7 @@
 
+// data
+import data from "../data/data.json"
+
 function Hero () {
 
     return (
@@ -11,17 +14,19 @@ function Hero () {
                             <span className="text-blue-400">Software Engineer & AI Enthusiast</span>
                         </h1>
                         <p className="text-lg text-slate-400 max-w-2xl mb-8">
-                            Ingeniero en Informática con sólida base en PHP/MySQL (4 años) y especialización en el ecosistema moderno de Python, Machine Learning y React.
+                            Performance-oriented Software Engineer with 5 years of hands-on experience in backend architecture (PHP/MySQL) and the AI/ML ecosystem. Specialized in implementing robust IAM frameworks, including Role-Based Access Control (RBAC) and advanced security policies (session management, password complexity, and MFA). Experienced in developing comprehensive audit logs (bitácoras) and security hardening to ensure compliance with industry standards. Enthusiastic about MERN stack and secure-by-design development. 
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-                            <span 
-                                className="px-3 py-1 bg-slate-800 rounded-full text-xs font-mono text-emerald-400 border border-emerald-400/30">
-                                    barruetadaniel87@gmail.com
-                            </span>
-                            <span 
-                                className="px-3 py-1 bg-slate-800 rounded-full text-xs font-mono text-blue-400 border border-blue-400/30">
-                                    Remote Expert
-                            </span>
+                            {
+                                data.badgeHero.map((item)=>(
+                                    <span
+                                        key={item.id} 
+                                        className={`px-3 py-1 bg-slate-800 rounded-full text-xs font-mono ${item.textColor}`}>
+                                            {item.text}
+                                    </span>
+                                ))
+                            }
+
                         </div>
                     </div>
                     <div className="hidden md:block w-1/3">
@@ -37,7 +42,7 @@ function Hero () {
                                     <span className="text-blue-300 inline">Developer</span>
                                     {`{`}
                                 </p> 
-                                    &nbsp;&nbsp;exp: <span className="text-yellow-300">"4 Years PHP"</span>,<br/>
+                                    &nbsp;&nbsp;exp: <span className="text-yellow-300">"5 Years PHP"</span>,<br/>
                                     &nbsp;&nbsp;current: <span className="text-yellow-300">"AI/ML Focus"</span>,<br/>
                                     &nbsp;&nbsp;status: <span className="text-emerald-400">"Ready to scale"</span><br/>
                                 {`}`}

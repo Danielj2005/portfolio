@@ -1,0 +1,143 @@
+{
+    "exp": [
+        { "id": 1, "title": "5 Years", "subtitle": "Full Stack PHP (PDO/MVC) & MySQL"},
+        { "id": 2, "title": "+1 Years", "subtitle": "Full Stack Python (Django/FastAPI) & Laravel"},
+        { "id": 3, "title": "IA", "subtitle": "Pandas & ML Models"},
+        { "id": 4, "title": "Modern", "subtitle": "React, Tailwind css, TS & Node.js"}
+    ],
+    "coreBackend": [
+        { "id": 1, "text": "PHP (PDO/MVC)"},
+        { "id": 2, "text": "MySQL"},
+        { "id": 3, "text": "API / API REST"},
+        { "id": 4, "text": "Role-Based Access Control (RBAC)"},
+        { "id": 5, "text": "Multi-factor Authentication (MFA)"},
+        { "id": 6, "text": "Security Knowledge-Based Authentication (KBA)"},
+        { "id": 7, "text": "Scrapping"},
+        { "id": 8, "text": "Javascript (AJAX / jQuery)"},
+        { "id": 9, "text": "Bootstrap CSS"},
+        { "id": 10, "text": "Bootstrap Icons"},
+        { "id": 11, "text": "PostgreSQL"},
+        { "id": 12, "text": "Version Control (Git)"},
+        { "id": 13, "text": "GitHub"},
+        { "id": 14, "text": "CI/CD"},
+        { "id": 15, "text": "DevOps Practices"},
+        { "id": 16, "text": "Code Review Practices"},
+        { "id": 17, "text": "Performance Optimization"},
+        { "id": 18, "text": "Security Best Practices"},
+        { "id": 19, "text": "Accessibility Standards"},
+        { "id": 20, "text": "Responsive Design Principles"},
+        { "id": 21, "text": "UI/UX Design Fundamentals"}
+    ],
+    "auge": [
+        { "id": 1, "text": "FastAPI"},
+        { "id": 2, "text": "Django"},
+        { "id": 3, "text": "Pandas"},
+        { "id": 4, "text": "Machine Learning"},
+        { "id": 5, "text": "Deep Learning"},
+        { "id": 6, "text": "NLP"},
+        { "id": 7, "text": "Computer Vision"},
+        { "id": 8, "text": "Docker"},
+        { "id": 9, "text": "Kubernetes"},
+        { "id": 10, "text": "MongoDB"},
+        { "id": 11, "text": "Redis"},
+        { "id": 12, "text": "GraphQL"},
+        { "id": 13, "text": "Serverless Architecture"},
+        { "id": 14, "text": "Microservices"},
+        { "id": 15, "text": "Cloud Platforms (AWS/GCP/Azure)"},
+        { "id": 16, "text": "CI/CD Pipelines (GitHub Actions/Jenkins)"},
+        { "id": 17, "text": "Testing Frameworks (Jest/Mocha)"},
+        { "id": 18, "text": "Agile Methodologies (Scrum/Kanban)"},
+        { "id": 19, "text": "Containerization (Docker)"},
+        { "id": 20, "text": "Code Review Practices"},
+        { "id": 21, "text": "Performance Optimization"},
+        { "id": 23, "text": "State Management (Redux/MobX)"},
+        { "id": 24, "text": "Internationalization (i18n)"},
+        { "id": 25, "text": "Localization (l10n)"}
+    ],
+    "modernCore": [
+        { "id": 1, "text": "React (Vite)"},
+        { "id": 2, "text": "Tailwind CSS"},
+        { "id": 3, "text": "TypeScript"},
+        { "id": 4, "text": "ESLint"},
+        { "id": 5, "text": "Prettier"},
+        { "id": 8, "text": "Node.js"},
+        { "id": 9, "text": "Express.js"},
+        { "id": 10, "text": "WebSockets"},
+        { "id": 11, "text": "Agile Methodologies (Scrum/Kanban)"},
+        { "id": 12, "text": "Laravel Ecosystem"}
+    ],
+    "badgeHero": [
+        { "id": 1, "text": "Software Engineer", "textColor": "text-blue-400 border border-blue-400/30"},
+        { "id": 2, "text": "AI/ML Enthusiast", "textColor": "text-emerald-400 border border-emerald-400/30"},
+        { "id": 3, "text": "MERN Stack Developer", "textColor": "text-purple-400 border border-purple-400/30"},
+        { "id": 4, "text": "Secure-by-Design Advocate", "textColor": "text-red-400 border border-red-400/30"},
+        { "id": 5, "text": "Expert in PHP (Laravel)", "textColor": "text-purple-400 border border-purple-400/30"},
+        { "id": 6, "text": "UI/UX Designer", "textColor": "text-emerald-400 border border-emerald-400/30"},
+        { "id": 7, "text": "Version Control (Git)", "textColor": "text-orange-400 border border-orange-400/30"},
+        { "id": 8, "text": "FrontEnd Engineer", "textColor": "text-pink-400 border border-pink-400/30"},
+        { "id": 9, "text": "BackEnd Engineer", "textColor": "text-blue-400 border border-blue-400/30"},
+        { "id": 10, "text": "Remote Work Expert", "textColor": "text-slate-400 border border-slate-400/30"}
+    ],
+    "proyects": [
+        { 
+            "id": 1,
+            "title": "Gestión de Inventario & Venta",
+            "titleClass": "text-lg font-bold mb-2", 
+            "subtitle": "Sistema empresarial robusto con PHP PDO y MySQL. Gestión de stock, facturación y reportes en tiempo real. Diseño de un sistema robusto multiusuario que optimizó la recuperación de datos en un 30 % mediante indexación SQL avanzada e interfaces implementando AJAX.", 
+            "subtitleClass": "text-xs text-slate-400 mb-4", 
+            "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition",
+            "imgSrc": "../src/assets/ventoi.jpeg",
+            "imgClass": "max-h-80",
+            "imgAlt": "vento Screenshot",
+            "data": [
+                { "id": 1, "text": "PHP (PDO)"},
+                { "id": 2, "text": "MVC"},
+                { "id": 3, "text": "Jquery"},
+                { "id": 4, "text": "Mysql"},
+                { "id": 5, "text": "Bootstrap"},
+                { "id": 6, "text": "JavaScript"},
+                { "id": 7, "text": "AJAX"},
+                { "id": 8, "text": "Git"},
+                { "id": 9, "text": "GitHub"},
+                { "id": 10, "text": "CI/CD"},
+                { "id": 11, "text": "scrapping"},
+                { "id": 12, "text": "API / API REST"},
+                { "id": 13, "text": "Role-Based Access Control (RBAC)"},
+                { "id": 14, "text": "Multi-factor Authentication (MFA)"},
+                { "id": 15, "text": "Security Knowledge-Based Authentication (KBA)"},
+                { "id": 16, "text": "Bootstrap CSS"},
+                { "id": 17, "text": "Bootstrap Icons"},
+                { "id": 18, "text": "Security Best Practices"},
+                { "id": 19, "text": "Accessibility Standards"},
+                { "id": 20, "text": "Responsive Design Principles"},
+                { "id": 21, "text": "UI/UX Design Fundamentals"}
+            ] 
+        },
+        {
+            "id": 2,
+            "title": "Sistema de Membresías",
+            "titleClass": "text-lg font-bold mb-2", 
+            "subtitle": "Plataforma escalable para control de usuarios y accesos mediante niveles de suscripción.", 
+            "subtitleClass": "text-xs text-slate-400 mb-4", 
+            "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition",
+            "data": [
+                { "id": 1, "text": "Node.js"},
+                { "id": 2, "text": "React"},
+                { "id": 3, "text": "Supabase"}
+            ]   
+        },
+        {
+            "id": 3,
+            "title": "Data Analysis & Predictive Model",
+            "titleClass": "text-lg font-bold mb-2", 
+            "subtitle": "Análisis de datos masivos con Pandas y entrenamiento de modelos básicos de ML para predicción de tendencias.", 
+            "subtitleClass": "text-xs text-slate-400 mb-4", 
+            "cardClass": "bg-slate-800 rounded-xl overflow-hidden border-2 border-yellow-500/30 hover:shadow-2xl hover:shadow-yellow-500/10 transition",
+            "data": [
+                { "id": 1, "text": "Python"},
+                { "id": 2, "text": "Pandas"},
+                { "id": 3, "text": "FastAPI"}
+            ]   
+        }
+    ]
+}
