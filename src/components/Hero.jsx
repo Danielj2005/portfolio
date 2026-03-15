@@ -1,8 +1,20 @@
 
 // data
-import data from "../data/data.json"
+const badgeHero = [
+        { "id": 1, "text": "Software Engineer", "textColor": "text-blue-400 border border-blue-400"},
+        { "id": 2, "text": "AI/ML Enthusiast", "textColor": "text-emerald-400 border border-emerald-400"},
+        { "id": 3, "text": "MERN Stack Developer", "textColor": "text-purple-400 border border-purple-400"},
+        { "id": 4, "text": "Secure-by-Design Advocate", "textColor": "text-red-400 border border-red-400"},
+        { "id": 5, "text": "Expert in PHP (Laravel)", "textColor": "text-purple-400 border border-purple-400"},
+        { "id": 6, "text": "UI/UX Designer", "textColor": "text-emerald-400 border border-emerald-400"},
+        { "id": 7, "text": "Version Control (Git)", "textColor": "text-orange-400 border border-orange-400"},
+        { "id": 8, "text": "FrontEnd Engineer", "textColor": "text-pink-400 border border-pink-400"},
+        { "id": 9, "text": "BackEnd Engineer", "textColor": "text-blue-400 border border-blue-400"},
+        { "id": 10, "text": "Remote Work Expert", "textColor": "text-slate-200 border border-slate-400"}
+    ];
 
 function Hero () {
+
 
     return (
         <> 
@@ -18,10 +30,10 @@ function Hero () {
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                             {
-                                data.badgeHero.map((item)=>(
+                                badgeHero.map((item)=>(
                                     <span
                                         key={item.id} 
-                                        className={`px-3 py-1 bg-slate-800 rounded-full text-xs font-mono ${item.textColor}`}>
+                                        className={`bg-slate-800 px-3 py-1 rounded-full text-sm font-mono ${item.textColor}`}>
                                             {item.text}
                                     </span>
                                 ))
