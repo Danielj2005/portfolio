@@ -105,12 +105,10 @@
                 { "id": 13, "text": "Role-Based Access Control (RBAC)"},
                 { "id": 14, "text": "Multi-factor Authentication (MFA)"},
                 { "id": 15, "text": "Security Knowledge-Based Authentication (KBA)"},
-                { "id": 16, "text": "Bootstrap CSS"},
-                { "id": 17, "text": "Bootstrap Icons"},
-                { "id": 18, "text": "Security Best Practices"},
-                { "id": 19, "text": "Accessibility Standards"},
-                { "id": 20, "text": "Responsive Design Principles"},
-                { "id": 21, "text": "UI/UX Design Fundamentals"}
+                { "id": 16, "text": "Security Best Practices"},
+                { "id": 17, "text": "Accessibility Standards"},
+                { "id": 18, "text": "Responsive Design Principles"},
+                { "id": 19, "text": "UI/UX Design Fundamentals"}
             ] 
         },
         {
