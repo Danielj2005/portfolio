@@ -74,7 +74,7 @@
             "subtitle": "Sistema empresarial robusto con PHP PDO y MySQL. Gestión de stock, facturación y reportes en tiempo real. Diseño de un sistema robusto multiusuario que optimizó la recuperación de datos en un 30 % mediante indexación SQL avanzada e interfaces implementando AJAX.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
             "cardClass": "bg-slate-800 rounded-xl overflow-hidden",
-            "imgSrc": "../src/assets/ventoi.jpeg",
+            "imgSrc": "./ventoi.jpeg",
             "imgClass": "max-h-80",
             "imgAlt": "vento Screenshot",
             "data": [
