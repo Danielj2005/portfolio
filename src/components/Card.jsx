@@ -38,7 +38,7 @@ const CardProject = (props) => {
     return (
         <>
             <div className={cardClass}>
-                <div className="h-40  flex items-center justify-center border-b border-slate-700 overflow-hidden">
+                <div className="flex items-center justify-center border-b border-slate-700 overflow-hidden">
                     <img 
                         src={imgSrc}
                         alt={imgAlt}

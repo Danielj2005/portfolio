@@ -66,14 +66,14 @@
         { "id": 11, "text": "Agile Methodologies (Scrum/Kanban)"},
         { "id": 12, "text": "Laravel Ecosystem"}
     ],
-    "proyects": [
+    "projects": [
         { 
             "id": 1,
             "title": "Gestión de Inventario & Venta",
             "titleClass": "text-lg font-bold mb-2", 
             "subtitle": "Sistema empresarial robusto con PHP PDO y MySQL. Gestión de stock, facturación y reportes en tiempo real. Diseño de un sistema robusto multiusuario que optimizó la recuperación de datos en un 30 % mediante indexación SQL avanzada e interfaces implementando AJAX.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
-            "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition",
+            "cardClass": "bg-slate-800 rounded-xl overflow-hidden",
             "imgSrc": "../src/assets/ventoi.jpeg",
             "imgClass": "max-h-80",
             "imgAlt": "vento Screenshot",
@@ -111,19 +111,6 @@
                 { "id": 1, "text": "Node.js"},
                 { "id": 2, "text": "React"},
                 { "id": 3, "text": "Supabase"}
-            ]   
-        },
-        {
-            "id": 3,
-            "title": "Data Analysis & Predictive Model",
-            "titleClass": "text-lg font-bold mb-2", 
-            "subtitle": "Análisis de datos masivos con Pandas y entrenamiento de modelos básicos de ML para predicción de tendencias.", 
-            "subtitleClass": "text-xs text-slate-400 mb-4", 
-            "cardClass": "bg-slate-800 rounded-xl overflow-hidden border-2 border-yellow-500/30 hover:shadow-2xl hover:shadow-yellow-500/10 transition",
-            "data": [
-                { "id": 1, "text": "Python"},
-                { "id": 2, "text": "Pandas"},
-                { "id": 3, "text": "FastAPI"}
             ]   
         }
     ]
