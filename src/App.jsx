@@ -77,7 +77,6 @@ function App() {
         idSection="projects" 
         classSection="py-20 px-4 bg-slate-800/30"
         classTitle="text-left "
-        cardsNum={data.projects.length}
         title="Proyectos Destacados"
         >
           {

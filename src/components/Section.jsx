@@ -17,9 +17,8 @@ function Section(props) {
 
 function SectionWithTitle(props) {
     
-    const {idSection , classSection, title, classTitle, cardsNum = 0, children} = props;
+    const {idSection , classSection, title, classTitle, children} = props;
     
-    const cantCard = cardsNum > 0 ? `md:grid-cols-${cardsNum}` : "";
     return (
         <>
             <Section 
@@ -27,7 +26,7 @@ function SectionWithTitle(props) {
                 classNames={classSection}>
                     <div className="max-w-6xl mx-auto text-center">
                         <h2 className={`text-3xl font-bold mb-12 ${classTitle}`}>{title}</h2>
-                        <div className={`grid gap-8 ${cantCard}`}>
+                        <div className={`grid gap-8 md:grid-cols-3`}>
                             {children}
                         </div>
                     </div>
