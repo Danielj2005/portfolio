@@ -111,6 +111,19 @@
                 { "id": 2, "text": "React"},
                 { "id": 3, "text": "Supabase"}
             ]   
+        },
+        {
+            "id": 3,
+            "title": "Ultra-Organizer",
+            "titleClass": "text-lg font-bold mb-2", 
+            "subtitle": "Organizador de archivos para Windows, permite organizar archivos por si extensión y eliminar las carpetas restantes si se desea además permite reorganizar los archivos de una carpeta seleccionada y agrupar los archivos ppr tipos en carpetas específica, por ejemplo una carpeta donde se guardan los archivos tipo documento y otra para archivos tipos video.", 
+            "subtitleClass": "text-xs text-blue-400 mb-4", 
+            "cardClass": "bg-blue-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition",
+            "data": [
+                { "id": 1, "text": "Python"},
+                { "id": 2, "text": "Tkinter"},
+                { "id": 3, "text": "Automatización"}
+            ]   
         }
     ]
 }
