@@ -113,17 +113,21 @@
             ]   
         },
         {
-            "id": 3,
-            "title": "Ultra-Organizer",
-            "titleClass": "text-lg font-bold mb-2", 
-            "subtitle": "Organizador de archivos para Windows, permite organizar archivos por si extensión y eliminar las carpetas restantes si se desea además permite reorganizar los archivos de una carpeta seleccionada y agrupar los archivos ppr tipos en carpetas específica, por ejemplo una carpeta donde se guardan los archivos tipo documento y otra para archivos tipos video.", 
-            "subtitleClass": "text-xs text-blue-400 mb-4", 
-            "cardClass": "bg-blue-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition",
-            "data": [
-                { "id": 1, "text": "Python"},
-                { "id": 2, "text": "Tkinter"},
-                { "id": 3, "text": "Automatización"}
-            ]   
+    "id": 3,
+    "title": "File Master ULTRA",
+    "titleClass": "text-lg font-bold mb-2", 
+    "subtitle": "Herramienta de automatización industrial para la gestión recursiva de activos digitales, procesamiento concurrente y generación de auditorías en PDF.", 
+    "subtitleClass": "text-xs text-slate-400 mb-4", 
+    "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition",
+    "data": [
+        { "id": 1, "text": "Python 3.x (POO)" },
+        { "id": 2, "text": "Multithreading" },
+        { "id": 3, "text": "File System API" },
+        { "id": 4, "text": "ReportLab (PDF)" },
+        { "id": 5, "text": "Tkinter GUI" },
+        { "id": 6, "text": "PyInstaller" }
+    ]   
         }
+        
     ]
 }
