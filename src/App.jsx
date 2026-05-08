@@ -34,6 +34,7 @@ function App() {
 
       <SectionWithTitle
         idSection="stack" 
+        gridCols="3"
         classSection="py-20 px-5 "
         classTitle="text-center "
         title="Dominio Tecnológico">
