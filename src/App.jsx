@@ -75,6 +75,7 @@ function App() {
 
       <SectionWithTitle
         idSection="projects" 
+        gridCols="2"
         classSection="py-20 px-4 bg-slate-800/30"
         classTitle="text-left "
         title="Proyectos Destacados"
@@ -84,6 +85,7 @@ function App() {
 
               <CardProject 
                 key={item.id}
+                idCarousel={item.id}
                 title = {item.title}
                 titleClass = {item.titleClass}
                 subtitle = {item.subtitle}

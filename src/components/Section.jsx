@@ -17,7 +17,7 @@ function Section(props) {
 
 function SectionWithTitle(props) {
     
-    const {idSection , classSection, title, classTitle, children} = props;
+    const {idSection , classSection, title, classTitle, gridCols = "3",children} = props;
     
     return (
         <>
@@ -26,7 +26,7 @@ function SectionWithTitle(props) {
                 classNames={classSection}>
                     <div className="max-w-6xl mx-auto text-center">
                         <h2 className={`text-3xl font-bold mb-12 ${classTitle}`}>{title}</h2>
-                        <div className={`grid gap-8 md:grid-cols-3`}>
+                        <div className={`grid gap-8 md:grid-cols-${gridCols}`}>
                             {children}
                         </div>
                     </div>

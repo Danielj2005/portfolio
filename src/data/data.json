@@ -74,7 +74,7 @@
             "subtitle": "Sistema empresarial robusto con PHP PDO y MySQL. Gestión de stock, facturación y reportes en tiempo real. Diseño de un sistema robusto multiusuario que optimizó la recuperación de datos en un 30 % mediante indexación SQL avanzada e interfaces implementando AJAX.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
             "cardClass": "bg-slate-800 rounded-xl overflow-hidden",
-            "imgSrc": "./ventoi.jpeg",
+            "imgSrc": ["./ventoi.jpeg"],
             "imgClass": "max-h-80",
             "imgAlt": "vento Screenshot",
             "data": [
@@ -102,10 +102,19 @@
         {
             "id": 2,
             "title": "CTS FileGrid",
-            "titleClass": "text-lg font-bold mb-2 text-emerald-400", 
+            "titleClass": "text-lg font-bold mb-2", 
             "subtitle": "Ecosistema de gestión recursiva de activos con motor de integridad MD5, interfaz híbrida (Desktop/Web) y optimización de almacenamiento institucional.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
             "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition",
+            "imgSrc": [
+                "./assets/imgs/dashboardCTSFileGrid.PNG",
+                "./assets/imgs/avanzadoCTSFileGrid.PNG",
+                "./assets/imgs/limpiezaCTSFileGrid.PNG",
+                "./assets/imgs/extraccionCTSFileGrid.PNG",
+                "./assets/imgs/eliminarCTSFileGrid.PNG"
+            ],
+            "imgClass": "max-h-80",
+            "imgAlt": "CTS FileGrid Screenshot",
             "data": [
                 { "id": 1, "text": "Python Backend (Multithreading)" },
                 { "id": 2, "text": "PyWebView Engine" },
@@ -120,10 +129,19 @@
         {
             "id": 3, 
             "title": "SaaS de gestión de inventario, ventas, facturas y clientes", 
-            "titleClass": "text-lg font-bold mb-2 text-emerald-400", 
+            "titleClass": "text-lg font-bold mb-2", 
             "subtitle": "Plataforma web de gestión de inventario, ventas, facturas y clientes con PHP, Bootstrap, reportes PDF y visualización dinámica de datos.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
             "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition", 
+            "imgSrc": [
+                "./assets/imgs/loginSaas.PNG",
+                "./assets/imgs/mainSaas.PNG",
+                "./assets/imgs/inventorySaas.PNG",
+                "./assets/imgs/mainSalesSaas.PNG",
+                "./assets/imgs/SalesSaas.PNG"
+            ],
+            "imgClass": "max-h-80",
+            "imgAlt": "SaaS Screenshot",
             "data": [ 
                 { "id": 1, "text": "PHP + MySQL" }, 
                 { "id": 2, "text": "Bootstrap 5 / Inter" }, 

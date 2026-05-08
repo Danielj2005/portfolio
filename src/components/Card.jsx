@@ -1,4 +1,4 @@
-
+import Carousel from "./Carousel";
 
 const Card = (props) => {
 
@@ -24,14 +24,13 @@ const Card = (props) => {
 const CardProject = (props) => {
 
     const {
+        idCarousel,
         title,
         titleClass, 
         subtitle, 
         subtitleClass, 
         cardClass,
         imgSrc,
-        imgClass,
-        imgAlt,
         array = []
     } = props;
 
@@ -39,10 +38,7 @@ const CardProject = (props) => {
         <>
             <div className={cardClass}>
                 <div className="flex items-center justify-center border-b border-slate-700 overflow-hidden">
-                    <img 
-                        src={imgSrc}
-                        alt={imgAlt}
-                        className={imgClass} />
+                    <Carousel id={idCarousel} images={imgSrc}/>
                 </div>
                 <div className="p-6">
                     <h4 className={titleClass}>{title}</h4>
