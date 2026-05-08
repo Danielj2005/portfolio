@@ -101,32 +101,19 @@
         },
         {
             "id": 2,
-            "title": "Sistema de Membresías",
+            "title": "File Master ULTRA",
             "titleClass": "text-lg font-bold mb-2", 
-            "subtitle": "Plataforma escalable para control de usuarios y accesos mediante niveles de suscripción.", 
+            "subtitle": "Herramienta de automatización industrial para la gestión recursiva de activos digitales, procesamiento concurrente y generación de auditorías en PDF.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
             "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition",
             "data": [
-                { "id": 1, "text": "Node.js"},
-                { "id": 2, "text": "React"},
-                { "id": 3, "text": "Supabase"}
+                { "id": 1, "text": "Python 3.x (POO)" },
+                { "id": 2, "text": "Multithreading" },
+                { "id": 3, "text": "File System API" },
+                { "id": 4, "text": "ReportLab (PDF)" },
+                { "id": 5, "text": "Tkinter GUI" },
+                { "id": 6, "text": "PyInstaller" }
             ]   
-        },
-        {
-    "id": 3,
-    "title": "File Master ULTRA",
-    "titleClass": "text-lg font-bold mb-2", 
-    "subtitle": "Herramienta de automatización industrial para la gestión recursiva de activos digitales, procesamiento concurrente y generación de auditorías en PDF.", 
-    "subtitleClass": "text-xs text-slate-400 mb-4", 
-    "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition",
-    "data": [
-        { "id": 1, "text": "Python 3.x (POO)" },
-        { "id": 2, "text": "Multithreading" },
-        { "id": 3, "text": "File System API" },
-        { "id": 4, "text": "ReportLab (PDF)" },
-        { "id": 5, "text": "Tkinter GUI" },
-        { "id": 6, "text": "PyInstaller" }
-    ]   
         }
         
     ]
