@@ -116,6 +116,22 @@
                 { "id": 7, "text": "ReportLab (PDF Reports)" },
                 { "id": 8, "text": "PyInstaller Execution (One-File)" }
             ]   
+        },
+        {
+            "id": 3, 
+            "title": "SaaS de gestión de inventario, ventas, facturas y clientes", 
+            "titleClass": "text-lg font-bold mb-2 text-emerald-400", 
+            "subtitle": "Plataforma web de gestión de inventario, ventas, facturas y clientes con PHP, Bootstrap, reportes PDF y visualización dinámica de datos.", 
+            "subtitleClass": "text-xs text-slate-400 mb-4", 
+            "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition", 
+            "data": [ 
+                { "id": 1, "text": "PHP + MySQL" }, 
+                { "id": 2, "text": "Bootstrap 5 / Inter" }, 
+                { "id": 3, "text": "Chart.js + Daterangepicker" }, 
+                { "id": 4, "text": "FPDF para generación de PDF" }, 
+                { "id": 5, "text": "SweetAlert y html2canvas" }, 
+                { "id": 6, "text": "jsbarcode y moment.js" } 
+            ] 
         }
         
     ]
