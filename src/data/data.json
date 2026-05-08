@@ -101,18 +101,20 @@
         },
         {
             "id": 2,
-            "title": "File Master ULTRA",
-            "titleClass": "text-lg font-bold mb-2", 
-            "subtitle": "Herramienta de automatización industrial para la gestión recursiva de activos digitales, procesamiento concurrente y generación de auditorías en PDF.", 
+            "title": "CTS FileGrid",
+            "titleClass": "text-lg font-bold mb-2 text-emerald-400", 
+            "subtitle": "Ecosistema de gestión recursiva de activos con motor de integridad MD5, interfaz híbrida (Desktop/Web) y optimización de almacenamiento institucional.", 
             "subtitleClass": "text-xs text-slate-400 mb-4", 
             "cardClass": "bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 transition",
             "data": [
-                { "id": 1, "text": "Python 3.x (POO)" },
-                { "id": 2, "text": "Multithreading" },
-                { "id": 3, "text": "File System API" },
-                { "id": 4, "text": "ReportLab (PDF)" },
-                { "id": 5, "text": "Tkinter GUI" },
-                { "id": 6, "text": "PyInstaller" }
+                { "id": 1, "text": "Python Backend (Multithreading)" },
+                { "id": 2, "text": "PyWebView Engine" },
+                { "id": 3, "text": "JavaScript / Tailwind & Bootstrap" },
+                { "id": 4, "text": "File System Logic" },
+                { "id": 5, "text": "MD5 Hash Integrity" },
+                { "id": 6, "text": "Send2Trash (Safe Delete)" },
+                { "id": 7, "text": "ReportLab (PDF Reports)" },
+                { "id": 8, "text": "PyInstaller Execution (One-File)" }
             ]   
         }
         
