@@ -35,6 +35,7 @@ function App() {
       <SectionWithTitle
         idSection="stack" 
         classSection="py-20 px-5 "
+        classTitle="text-center "
         title="Dominio Tecnológico">
 
           <Card 
