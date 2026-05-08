@@ -34,7 +34,7 @@ function App() {
 
       <SectionWithTitle
         idSection="stack" 
-        gridCols="3"
+        gridCols="md:grid-cols-3"
         classSection="py-20 px-5 "
         classTitle="text-center "
         title="Dominio Tecnológico">
@@ -77,7 +77,7 @@ function App() {
 
       <SectionWithTitle
         idSection="projects" 
-        gridCols="2"
+        gridCols="md:grid-cols-2"
         classSection="py-20 px-4 bg-slate-800/30"
         classTitle="text-left "
         title="Proyectos Destacados"
